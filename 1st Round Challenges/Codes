@@ -1,4 +1,4 @@
-/ A C++ program to check if a given point lies inside a given polygon 
+// A C++ program to check if a given point lies inside a given polygon 
  
 #include <iostream> 
 using namespace std; 
