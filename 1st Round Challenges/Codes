@@ -131,3 +131,15 @@ int main()
 	return 0; 
 }
 
+
+
+
+//Output:
+
+
+True                                                                                                                            
+True                                                                                                                            
+False                                                                                                                           
+True                                                                                                                            
+False                                                                                                                           
+False
