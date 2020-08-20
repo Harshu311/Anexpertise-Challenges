@@ -1,0 +1,14 @@
+public void countDesiredBuildings(int arr[][]) {
+    int maxEle = arr[0][0];
+    int count =1;
+     
+    for(int i=1;i<arr.length;i++){
+      for(int j=1;j<arr.length;j++){
+        if(arr[i][j]>maxEle){
+            count++;
+            maxEle = arr[i][j];
+        }
+    }
+}
+    System.out.println("Count of building that receive sunlight:" + count);
+}
